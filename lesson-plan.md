@@ -8,7 +8,7 @@ Duration: 15-20 minutes
 
 ## Introduction
 
-### Level Set / Review
+### Concept Review
 
 - What is a component in React?
 - What are props in React?
@@ -39,11 +39,9 @@ Duration: 15-20 minutes
 
 ### Requirements
 
-- THe article carousel displays one article at a time
-- Clicking the next button displays the next article
-- The next button is not visible when there is no "next article"
-- Clicking the previous article displays the next article
-- The previous button is not visible when there is no "previous article"
+- The article carousel displays one article at a time
+- Clicking the "Next Article" button displays the next article
+- Clicking the "Previous Article" button displays the previous article
 
 ### Implementing the Article Carousel
 
@@ -57,10 +55,66 @@ Duration: 15-20 minutes
 - Inside the event handlers, demonstrate how to update the state to navigate through the articles.
 - Explain that the state update triggers a re-render, displaying the corresponding article in the UI.
 
+### Independent Challenges
+
+Use what we have learned to achieve the following additional requirements:
+
+#### Use State to Conditionally Render Components
+
+- The "Next Article" button is not visible when there is no "next article"
+- The "Previous Article" button is not visible when there is no "previous article"
+
+#### Pass State as Props to Components
+
+- Create a new `Article` component that receives three props: `title`, `body`, and `quote`.
+- Modify the `ArticleCarousel` component to render a dynamic `Article` component instead of static JSX.
+
+Start by adding this code to the top of your `ArticleCarousel` file:
+
+```js
+import Article from "./Article"
+
+const articleData = [
+  {
+    "title": "Proin Risus",
+    "body": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+    "quote": "Sed ante. Vivamus tortor. Duis mattis egestas metus."
+  },
+  {
+    "title": "Donec ut Dolor",
+    "body": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "quote": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi."
+  },
+  {
+    "title": "Pellentesque Ultrices Mattis Odio",
+    "body": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "quote": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+  }
+]
+```
+
+Rework your `ArticleCarousel` component:
+
+```js
+function ArticleCarousel() {
+  render (
+    <section className="article-carousel">
+      <h2>Article Carousel Example</h2>
+
+      <button>Previous Article</button>
+      <button>Next Article</button>
+    </section>
+  )
+}
+```
+
+- Include the new `Article` component in the render function, after the two buttons elements. How will we determine its props?
+- When considering the `articleData` array, how do you think this will be used with the `useState` hook and the `Article` props?
+
 ## Conclusion
 
 - Recap the main points covered in the lesson, highlighting the use of state and click event handling in React with TypeScript.
-- Emphasize that the lesson covered a simplified counter component and article carousel but can be expanded for more complex scenarios.
+- Emphasize that the lesson covered a simplified counter component and article carousel but can be expanded for more complex scenarios, such as those provided in the independent challenges.
 - Encourage students to explore and modify the code further, experimenting with additional stateful components and event handling.
 
 ## Checks For Understanding
@@ -69,7 +123,7 @@ Duration: 15-20 minutes
 1. How is state different from props in React?
 1. What is the purpose of managing state in a component?
 1. What are some scenarios where you think state management would be useful in a React application?
-1. Can you explain the useState hook's purpose and how it is used?
+1. Can you explain the `useState` hook's purpose and how it is used?
 1. What are some ways you can update the state in a React component when handling a click event?
 1. How do state updates affect the rendering of a React component?
 1. Can you describe a scenario where you might use click event handling and state together in a React component?
