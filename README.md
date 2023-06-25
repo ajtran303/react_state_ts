@@ -101,11 +101,11 @@ This file is our JavaScript's "main" entry point into the html. It creates a `Re
 
 Notice that the app is nested in a helper component called `StrictMode`. If you have not used this before, just know that it helps developers debug React components. Read more about Strict Mode on the [React docs](https://react.dev/reference/react/StrictMode).
 
-### src/index.css
+<!-- ### src/index.css
 
-Before we move on to the JavaScript that we will be playing with, look at `src/index.css`. In this project, we will be using the [alternative box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model) of CSS. Read the comment for a quick explanation, and read the documentation linked for more information. This is going to be the *only* stylesheet file. For this lesson, we will style our components when needed by writing the CSS in the component itself.
+Before we move on to the JavaScript that we will be playing with, look at `src/index.css`. In this project, we will be using the [alternative box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#the_alternative_css_box_model) of CSS. Read the comment for a quick explanation, and read the documentation linked for more information. This is going to be the *only* stylesheet file. For this lesson, we will style our components when needed by writing the CSS in the component itself. -->
 
-### src/App.tsc
+### src/App.tsx
 
 The `App` component is the first component we will be working with. It is responsible for being the "container" of all the contents we want to render in the browser. Note the two components, `Counter` and `ArticleCarousel`. We will be using these components to learn about handling click events to manage state.
 
