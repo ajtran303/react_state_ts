@@ -12,12 +12,16 @@ is determined by that TOTAL size minus the size of padding.
 
 */
 
-html {
-  margin: 0;
+:root {
   box-sizing: border-box;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-  border: 1px dashed red;
+  /* border: 1px solid red; */
+}
+
+#root {
+  width: 90%;
+  margin: auto;
 }
