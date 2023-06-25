@@ -108,3 +108,5 @@ Before we move on to the JavaScript that we will be playing with, look at `src/i
 ### src/App.tsc
 
 The `App` component is the first component we will be working with. It is responsible for being the "container" of all the contents we want to render in the browser. Note the two components, `Counter` and `ArticleCarousel`. We will be using these components to learn about handling click events to manage state.
+
+Now, open [lesson-plan.md](/lesson-plan.md) to learn more about today's lesson!
