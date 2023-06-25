@@ -24,50 +24,38 @@ function App() {
           <button>Next Article</button>
 
           <article>
-            <h3>Article Title 1</h3>
+            <h3>Proin Risus</h3>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt 
-              aliquam ab accusantium vero cupiditate perferendis, provident quibusdam 
-              sequi porro at quidem, excepturi voluptate impedit numquam eius molestias ea earum?
+              Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
             </p>
 
             <blockquote>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-              tempor incididunt ut labore et dolore magna aliqua. Odio ut enim 
-              blandit volutpat maecenas volutpat blandit aliquam etiam.
+              Sed ante. Vivamus tortor. Duis mattis egestas metus.
             </blockquote>
           </article>
 
           <article>
-            <h3>Article Title 2</h3>
+            <h3>Donec ut Dolor</h3>
             
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt 
-              aliquam ab accusantium vero cupiditate perferendis, provident quibusdam 
-              sequi porro at quidem, excepturi voluptate impedit numquam eius molestias ea earum?
+              Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
             </p>
 
             <blockquote>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-              tempor incididunt ut labore et dolore magna aliqua. Odio ut enim 
-              blandit volutpat maecenas volutpat blandit aliquam etiam.
+              Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
             </blockquote>
           </article>
 
           <article>
-            <h3>Article Title 3</h3>
+            <h3>Pellentesque Ultrices Mattis Odio</h3>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt 
-              aliquam ab accusantium vero cupiditate perferendis, provident quibusdam 
-              sequi porro at quidem, excepturi voluptate impedit numquam eius molestias ea earum?
+              Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
             </p>
 
             <blockquote>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-              tempor incididunt ut labore et dolore magna aliqua. Odio ut enim 
-              blandit volutpat maecenas volutpat blandit aliquam etiam.
+              Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
             </blockquote>
           </article>
         </section>
