@@ -37,6 +37,8 @@ Duration: 15-20 minutes
 
 ## Part 2: Article Carousel Component
 
+For written instructions, follow along in [article-carousel.md](./article-carousel.md).
+
 ### Requirements
 
 - The article carousel displays one article at a time
@@ -48,6 +50,7 @@ Duration: 15-20 minutes
 - Introduce the second part of the lesson, focusing on creating an article carousel with state and event handling.
 - Identify the "Article Carousel" section in the code and explain its purpose.
 - Discuss the need for state to track the currently displayed article.
+- Explain how the useState hook allows updating the state using the provided function.
 
 ### Handling Click Events in the Article Carousel
 
