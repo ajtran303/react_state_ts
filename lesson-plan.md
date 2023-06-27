@@ -6,6 +6,8 @@ Prequisites: You can create a basic React component (with Typescript).
 
 Duration: 15-20 minutes
 
+Completed code examples can be found on the `solution` branch of the original repo.
+
 ## Introduction
 
 ### Concept Review
