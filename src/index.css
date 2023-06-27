@@ -18,7 +18,6 @@ is determined by that TOTAL size minus the size of padding.
 
 *, *::before, *::after {
   box-sizing: inherit;
-  /* border: 1px solid red; */
 }
 
 #root {
@@ -26,6 +25,20 @@ is determined by that TOTAL size minus the size of padding.
   margin: auto;
 }
 
+.counter {
+  border: 1px solid blue;
+  padding: 0 1em 1em 1em;
+}
+
 article {
   border: 1px solid red;
+  background-color: lightgrey;
+  padding: 0 1em;
+  margin: .5em 0;
+}
+
+.article-carousel {
+  border: 1px solid blue;
+  padding: 0 1em;
+  margin-top: 1em;
 }
