@@ -1,3 +1,5 @@
+import { useState } from "react"
+
 const article1 = (
   <article>
     <h3>Proin Risus</h3>
@@ -40,17 +42,41 @@ const article3 = (
   </article>
 )
 
+const articles = [article1, article2, article3];
+
 function ArticleCarousel() {
+  const [index, setIndex] = useState<number>(0);
+
+  function handlePreviousArticleClick(): void {
+    let previousIndex;
+    if (index === 0) {
+      previousIndex = articles.length - 1
+    } else {
+      previousIndex = index - 1
+    }
+
+    setIndex(previousIndex);
+  }
+
+  function handleNextArticleClick(): void {
+    let nextIndex;
+    if (index === 2) {
+      nextIndex = 0
+    } else {
+      nextIndex = index + 1
+    }
+
+    setIndex(nextIndex);
+  }
+
   return (
     <section className="article-carousel">
       <h2>Article Carousel Example</h2>
 
-      <button>Previous Article</button>
-      <button>Next Article</button>
+      <button onClick={handlePreviousArticleClick}>Previous Article</button>
+      <button onClick={handleNextArticleClick}>Next Article</button>
 
-      {article1}
-      {article2}
-      {article3}
+      {articles[index]}
     </section>
   )
 }
