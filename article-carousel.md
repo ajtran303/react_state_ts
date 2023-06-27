@@ -183,11 +183,13 @@ In your terminal, run `npm run dev` and use the `o` keyboard shortcut to launch 
 
 Click on the "Next Article" and "Previous Article" buttons. Do the articles change as expected? If they do, good job!
 
+***Note:*** When the state variable is updated, it triggers a re-render to display the changes in the UI!
+
 ## Bonus
 
 There is a "bug" in this implementation! Clicking "too much" of one button will cause the articles to disappear. You can "reset" the state of the app by refreshing the page.
 
-What is causing this behavior? How might you squash this bug?
+What is causing this unexpected behavior? How might you squash this bug?
 
 There is one approach you might take in the first [independent challenge](/lesson-plan.md#independent-challenges) of the lesson plan. If you want a hint, go there and see the next requirements.
 
