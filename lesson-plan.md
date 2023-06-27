@@ -133,6 +133,7 @@ function ArticleCarousel() {
 
 ## Additional Resources
 
+- [useState (Official React Documentation)](https://react.dev/reference/react/useState)
 - [Responding to Events (Official React documentation)](https://react.dev/learn/responding-to-events)
 - [List of HTML Event Attributes (W3 Schools)](https://www.w3schools.com/tags/ref_eventattributes.asp)
 - [List of React Event handlers (Official React documentation)](https://react.dev/reference/react-dom/components/common#react-event-object)
