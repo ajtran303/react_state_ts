@@ -25,3 +25,7 @@ is determined by that TOTAL size minus the size of padding.
   width: 90%;
   margin: auto;
 }
+
+article {
+  border: 1px solid red;
+}
